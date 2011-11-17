@@ -26,8 +26,8 @@ die zu Beginn mit der Methode fracht(frachtgut) einmal mitgeteilt werden.
 2.  Schreiben Sie eine Klasse Container und eine Klasse Frachtgut. Die Größe der Container und des Frachtguts legen Sie beim Erzeugen der Container und des Frachtgutes fest. 
 3.  Die Klasse Container hat zwei Methoden: 
 
-a.  ```fracht( frachtgut)```: hier wird die Größe des Frachtgutes mitgeteilt. Der Container berechnet daraus die Anzahl der Elemente, die in den Container passen. 
-b.  ```beladen(frachtgut)```: der Container lädt Frachtgut ein. Liefert true,  wenn das Frachtgut noch geladen werden konnte. Liefert false, wenn der Container voll beladen ist. Nach dem Beladen ist die aktuelle Position der nächste freie Platz, oder der erste nicht freie Platz. 
+*   ```fracht( frachtgut)```: hier wird die Größe des Frachtgutes mitgeteilt. Der Container berechnet daraus die Anzahl der Elemente, die in den Container passen. 
+*  ```beladen(frachtgut)```: der Container lädt Frachtgut ein. Liefert true,  wenn das Frachtgut noch geladen werden konnte. Liefert false, wenn der Container voll beladen ist. Nach dem Beladen ist die aktuelle Position der nächste freie Platz, oder der erste nicht freie Platz. 
 
 ### Hinweise:
 1.  Verwalten Sie das Frachtgut eines Containers in einem geeigneten Array.
