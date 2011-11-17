@@ -85,17 +85,17 @@ gebunden.
 
 1.  Sie sollen die gezeigten Baumstrukturen erzeugen: 
 
-
-Binärbaum 
-![Binärer Baum](http://shureg.de/haw/pr1/bbaum.png)
+### Binärbaum 
+![Binärer Baum](http://shureg.de/haw/pr1/bibaum.png)
  
-Allgemeiner Baum
+### Allgemeiner Baum
 ![Allgemeiner Baum](http://shureg.de/haw/pr1/abaum.png)
 
  
 2.  Folgende Aufrufe  sollen  sinnvolle Ergebnisse liefern:
     
 Für allgemeine Bäume werden zunächst alle Knoten kopiert (geklont)
+
 ```ruby
 anode12_clone = anode12.deep_clone
 anode11_clone = anode11.deep_clone
@@ -110,7 +110,9 @@ anode3_clone = anode3.deep_clone
 anode2_clone = anode2.deep_clone
 anode1_clone = anode1.deep_clone
 ```
+
 Dann werden folgende Tests ausgeführt
+
 ```ruby
 puts anode1
 p anode1.max_depth
@@ -144,6 +146,7 @@ p res
 Analog für Binärbäume:
 
 Zunächst klonen
+
 ```ruby
 bnode6_clone = bnode6.deep_clone
 bnode5_clone = bnode5.deep_clone
@@ -152,7 +155,9 @@ bnode3_clone = bnode3.deep_clone
 bnode2_clone = bnode2.deep_clone
 bnode1_clone = bnode1.deep_clone
 ```
+
   Dann Methoden aufrufen
+  
 ```ruby
 puts bnode1
 p bnode1.is_leaf?
